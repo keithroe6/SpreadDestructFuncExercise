@@ -40,14 +40,14 @@ const jurassicParkMovies = [
 },
 ]
 
-function seeJPMovies (a,b)
+function seeJPMovies ({one, two, three},{four, five, six})
 {
-    console.log(a.one);
-    console.log(a.two);
-    console.log(a.three);
-    console.log(b.four);
-    console.log(b.five);
-    console.log(b.six);   
+    console.log(one);
+    console.log(two);
+    console.log(three);
+    console.log(four);
+    console.log(five);
+    console.log(six);   
 }
 
 seeJPMovies(...jurassicParkMovies);
